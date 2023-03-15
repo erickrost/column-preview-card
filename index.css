@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    height: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 64px 16px 64px 16px;
+    color: white;
+    width: 330px;
+}
+
+.card-sedans {
+    background-color: #e28525;
+    padding: 24px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.card-suvs {
+    background-color: #016972;
+    padding: 24px;
+}
+
+.card-luxury {
+    background-color: #00403f;
+    padding: 24px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+img {
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 18px 0 18px 12px;
+}
+
+p {
+    font-size: 18px;
+    margin-left: 12px;
+    opacity: 80%;
+}
+
+button {
+    background-color: #f2f2f2;
+    margin: 24px 0 16px 12px;
+    border: 0;
+    padding: 12px 24px 12px 24px;
+    border-radius: 30px;
+}
+
+.sedans-button {
+    color: #e28525;
+}
+
+.suvs-button {
+    color: #016972;
+}
+
+.luxury-button {
+    color: #00403f;
+}
+
+@media screen and (min-width:763px) {
+    html {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-wrapper {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 60%;
+    }
+
+    .card-sedans {
+        border-radius: 6px 0 0 6px;
+        width: 266px;
+    }
+
+    .card-suvs {
+        width: 266px;
+    }
+
+    .card-luxury {
+        border-radius: 0 6px 6px 0;
+        width: 266px;
+    }
+
+    img {
+        margin-left: 12px;
+        margin-top: 18px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin: 18px 0 18px 12px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-left: 12px;
+        opacity: 80%;
+    }
+
+    button {
+        background-color: #f2f2f2;
+        margin: 136px 0 16px 12px;
+        border: 0;
+        padding: 16px 32px 16px 32px;
+        border-radius: 30px;
+    }
+}
